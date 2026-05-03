@@ -1,0 +1,30 @@
+# Security: NEVER commit API keys
+.env
+.env.*
+
+# Python Virtual Environments
+.venv
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Note: We intentionally DO NOT ignore *.db files because 
+# the GitHub Action needs to commit tracker_v2.db back to the repository!
