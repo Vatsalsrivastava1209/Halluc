@@ -1,0 +1,9 @@
+litellm
+instructor
+pydantic
+pydantic-settings
+openai
+requests
+streamlit
+pandas
+plotly
