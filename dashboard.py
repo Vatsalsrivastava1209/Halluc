@@ -5,8 +5,8 @@ import plotly.express as px
 import os
 
 st.set_page_config(page_title="LLM Hallucination Tracker", page_icon="🧠", layout="wide")
-st.title("🧠 LLM Hallucination & Bias Live-Tracker")
-st.caption("Auto-updated daily. Which AI is lying to you the most?")
+st.title("LLM Hallucination & Bias Live-Tracker")
+st.caption("Auto-updates daily. Check which LLM is most trustworthy!")
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tracker_v2.db")
 
